@@ -14,7 +14,7 @@
 /*!40101 SET @OLD_SQL_MODE=@@SQL_MODE, SQL_MODE='NO_AUTO_VALUE_ON_ZERO' */;
 /*!40111 SET @OLD_SQL_NOTES=@@SQL_NOTES, SQL_NOTES=0 */;
 
--- Dumping data for table darko_emocije.emocije: ~10 rows (approximately)
+-- Dumping data for table pitRakic.emocije: ~10 rows (approximately)
 INSERT INTO `emocije` (`id`, `vrsta_emocije`, `Poruka`) VALUES
 	(1, 'Radost', 'Prije nego što krenete tražiti sreću, provjerite - možda ste već sretni.\r\nSreća je mala, obična i neupadljiva, i mnogi ju ne znaju vidjeti.\r\n\r\nDuško Radović'),
 	(2, 'Ljutnja', 'Ljutnja je – stanje duše. U suštini, mi sami donosimo odluku da li ćemo biti ljuti. I kad, sledeći put rešite da se naljutite, razmislite: da li je to zaista tako lepo sebe sažaljevati? Predator uvek oseća slabijeg, i napada baš njega. Ne kaže se džaba u narodu: „Pusti je kraju“! Pustite ljutnju, nek ide svojim putem!'),

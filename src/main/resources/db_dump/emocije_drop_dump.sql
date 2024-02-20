@@ -15,13 +15,13 @@
 /*!40111 SET @OLD_SQL_NOTES=@@SQL_NOTES, SQL_NOTES=0 */;
 
 
--- Dumping database structure for darko_emocije
-DROP DATABASE IF EXISTS `darko_emocije`;
-CREATE DATABASE IF NOT EXISTS `darko_emocije` /*!40100 DEFAULT CHARACTER SET utf8mb4 */;
-USE `darko_emocije`;
+-- Dumping database structure for pitRakic
+DROP DATABASE IF EXISTS `pitRakic`;
+CREATE DATABASE IF NOT EXISTS `pitRakic` /*!40100 DEFAULT CHARACTER SET utf8mb4 */;
+USE `pitRakic`;
 
--- Dumping structure for table darko_emocije.emocije
-CREATE TABLE IF NOT EXISTS `emocije` (
+-- Dumping structure for table pitRakic.emocije
+CREATE TABLE IF NOT EXISTS `pitRakic` (
   `id` int(10) unsigned NOT NULL AUTO_INCREMENT,
   `vrsta_emocije` enum('Radost','Ljutnja','Tuga','Ljubav','Ljubomora','Ponos','Zavist','Smirenost','Strah','Nada') NOT NULL,
   `Poruka` text NOT NULL,

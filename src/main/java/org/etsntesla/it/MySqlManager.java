@@ -8,7 +8,7 @@ public class MySqlManager {
 
    private  static Connection connection;
 
-   private static final String MYSQL_STRING = "jdbc:mysql://localhost:3306/db_emocije";
+   private static final String MYSQL_STRING = "jdbc:mysql://localhost:3306/db_emocije_zeka";
    private static final String MYSQL_USER= "root";
    private static final String MYSQL_PASS= "";
 
