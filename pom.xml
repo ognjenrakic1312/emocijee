@@ -51,9 +51,10 @@
                     <configuration>
                         <includes>
                             <include>**/*BaseMySqlTest1.java</include>
+                            <include>**/*BaseMySqlTest2.java</include>
                         </includes>
                         <excludes>
-                            <exclude>**/BaseMySqlTest.java</exclude>
+                            <exclude>**/org.etsntesla.it.BaseMySqlTest.java</exclude>
                         </excludes>
                     </configuration>
                 </plugin>

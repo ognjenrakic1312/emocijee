@@ -1,3 +1,6 @@
+package org.etsntesla.it;
+
+import org.etsntesla.it.BaseMySqlTest;
 import org.junit.jupiter.api.AfterAll;
 import org.junit.jupiter.api.BeforeAll;
 import org.junit.jupiter.api.Test;

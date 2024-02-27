@@ -1,6 +1,7 @@
-import org.etsntesla.it.MySqlManager;
-import org.etsntesla.it.RunShellCommand;
-import org.junit.jupiter.api.*;
+package org.etsntesla.it;
+
+
+import org.junit.jupiter.api.BeforeAll;
 import java.sql.Connection;
 import java.sql.ResultSet;
 import java.sql.SQLException;
