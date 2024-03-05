@@ -7,10 +7,10 @@ import org.junit.jupiter.api.Test;
 
 import java.sql.SQLException;
 
-public class MySqlTest2 extends BaseMySqlTest {
+public class MySqlTest3 extends BaseMySqlTest {
 
     @BeforeAll
-    static void init2(){
+    static void init3(){
         setDataDumpMySqlFile("emocije_data_dump.sql");
         setEmptyDumpMySqlFile("emocije_drop_dump.sql");
         emptyData();
@@ -29,4 +29,3 @@ public class MySqlTest2 extends BaseMySqlTest {
     }
 
 }
-
