@@ -55,13 +55,29 @@
                     <version>3.0.0-M7</version>
                     <configuration>
                         <includes>
-                            <include>**/*BaseMySqlTest1.java</include>
-                            <include>**/*BaseMySqlTest2.java</include>
+                            <include>**/*MySqlTest1.java</include>
+                            <include>**/*MySqlTest2.java</include>
+                            <include>**/*MySqlTest3.java</include>
                         </includes>
                         <excludes>
                             <exclude>**/org.etsntesla.it.BaseMySqlTest.java</exclude>
                         </excludes>
                     </configuration>
+                </plugin>
+                <plugin>
+                    <groupId>org.flywaydb</groupId>
+                    <artifactId>flyway-maven-plugin</artifactId>
+                    <version>10.9.1</version>
+                    <configuration>
+                        <configFile>src/main/resources/application.properties</configFile>
+                    </configuration>
+                    <dependencies>
+                        <dependency>
+                            <groupId>org.flywaydb</groupId>
+                            <artifactId>flyway-mysql</artifactId>
+                            <version>10.9.1</version>
+                        </dependency>
+                    </dependencies>
                 </plugin>
             </plugins>
         </pluginManagement>

@@ -11,8 +11,8 @@ public class MySqlTest2 extends BaseMySqlTest {
 
     @BeforeAll
     static void init2(){
-        setDataDumpMySqlFile("emocije_data_dump.sql");
-        setEmptyDumpMySqlFile("emocije_drop_dump.sql");
+        setDataDumpMySqlFile("V01.002__emocije_data_dump.sql");
+        setEmptyDumpMySqlFile("V01.001__emocije_drop_dump.sql");
         emptyData();
         fillData();
     }

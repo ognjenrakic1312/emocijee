@@ -4,11 +4,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.stereotype.Component;
 
-import java.io.ObjectInputFilter;
 import java.sql.*;
-import java.util.Map;
-import java.util.Properties;
-import java.util.concurrent.Executor;
 
 @Component
 public class MySqlManagerBean {
@@ -26,7 +22,7 @@ public class MySqlManagerBean {
 
 
     }catch (SQLException e){
-        throw new RuntimeException(e.getMessage())}
+        throw new RuntimeException(e.getMessage());}
     }
 }
 
